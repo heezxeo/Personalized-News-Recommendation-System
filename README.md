@@ -4,9 +4,6 @@ A hybrid recommender for the MIND dataset combining Collaborative Filtering (SVD
 ```
 README.md
 requirements.txt
-.gitignore
-.env.example
-LICENSE                      # optional but recommended
 
 notebooks/
   01_mab.ipynb
