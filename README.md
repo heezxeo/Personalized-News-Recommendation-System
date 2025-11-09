@@ -1,5 +1,19 @@
-# Personalized-News-Recommendation-System
+# Personalized News Recommendation System
 A hybrid recommender for the MIND dataset combining Collaborative Filtering (SVD + neighborhoods), Content-Based (SBERT), Multi-Armed Bandits (ε-greedy), and an LLM-enhanced vector search pipeline
+
+```
+README.md
+requirements.txt
+.gitignore
+.env.example
+LICENSE                      # optional but recommended
+
+notebooks/
+  01_mab.ipynb
+  02_collaborative_filtering.ipynb
+  03_llm_enhanced.ipynb
+  04_content_based.ipynb
+```
 
 **Files used**
 - `behaviors.tsv` — impression logs: User ID, Time, History, Impressions
